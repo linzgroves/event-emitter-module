@@ -1,0 +1,22 @@
+{
+  "name": "event-emitter-module",
+  "version": "1.0.0",
+  "description": "A simple JavaScript event emitter module. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linzgroves/event-emitter-module.git"
+  },
+  "author": "Lindsay Groves <lindsaythegroves@gmail.com> (http://lindsaygroves.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linzgroves/event-emitter-module/issues"
+  },
+  "homepage": "https://github.com/linzgroves/event-emitter-module#readme",
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
+}
