@@ -8,7 +8,8 @@ A simple Javascript event emitter
 
 ## Usage
 
-    Since the testing is not functional, it can be partially tested with the following. First instantiate a new Event Emitter from the class:
+    Since the testing is not functional, it can be partially tested with the following. 
+    First instantiate a new Event Emitter from the class:
       const emitTest = new EventEmitter();
 
 ## Tests 
