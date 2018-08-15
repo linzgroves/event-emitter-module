@@ -79,3 +79,18 @@ A simple Javascript event emitter
     emitTest.emit('event');
      //expected output is nothing since the listener was removed
   
+## Tests 
+
+To enhance this module:
+
+-I'd want to get testing up and running and learn how to structure unit tests with Jasmine. I first tried the Mocha, Chai route but realized it could be nice to have all that under one roof with Jasmine. I'd want to flesh out the tests to even more isolated cases since I think I currently was focusing on larger groups of actions that I wanted to test. Along with this, I'd want to make sure I included:
+	- Defined functions and variables that could be used for writing the tests
+	- Failure tests along with success to make sure I know what would happen if I intentionally passed in something that should break the method or the class as a whole
+	- Stress testing that would check what would happen if a large number of listeners were added to see if there was a breaking point for the events object
+	- Passing in something other than a string for an eventName or a function for the callbackFn
+	- Passing in a large number of parameters to see how it'd handle it
+
+-I'd make sure that my code was all consistent with ES2015/ES6 conventions and standards. Also, I'd check if there was a better option than using 'hasOwnProperty' to check if the passed in 'eventName' key existed or not.
+
+-Clean up the comments so they're a bit more concise
+    
