@@ -11,7 +11,17 @@ A simple Javascript event emitter
     Since the testing is not functional, it can be partially tested with the following. 
     First instantiate a new Event Emitter from the class:
       const emitTest = new EventEmitter();
+## Methods
 
+    addListener(eventName, callbackFn){}
+    
+    removeListener(eventName, callbackFn){}
+    
+    removeAllListeners(){}
+    
+    once(eventName, callbackFn){}
+
+    emit(eventName, ...args){}
 ## Tests 
 
     The following are examples with expected output:
