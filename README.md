@@ -14,14 +14,20 @@ A simple Javascript event emitter
 ## Methods
 
     addListener(eventName, callbackFn){}
+    	-Adds a listener to an events object with the eventName as the key and callbackFn as the value
     
     removeListener(eventName, callbackFn){}
+    	-Removes a listener to an events object based on the eventName and callbackFn passed in
     
     removeAllListeners(){}
+    	-Remove all listeners from the events object (Should be able to pass in a specific eventName to target a specific listener)
     
     once(eventName, callbackFn){}
+    	-Adds a listener that can be used up to one time and then removes that listener
 
     emit(eventName, ...args){}
+    	-Emits the event and passes any arguments to the listeners that are looking for that event
+    
 ## Tests 
 
     The following are examples with expected output:
