@@ -1,5 +1,4 @@
 # event-emitter-module
-=========
 
 A simple Javascript event emitter
 
