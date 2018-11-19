@@ -1,10 +1,12 @@
+<!-- Still work in progress and not ready to be tested -->
+
 # event-emitter-module
 
 A simple Javascript event emitter
 
 ## Installation
 
-  `npm install event-emitter-module`
+  <!-- Omitting this until work is complete -->
 
 ## Usage
 
