@@ -1,4 +1,4 @@
-<!-- Still work in progress and not ready to be tested -->
+Still a work in progress and not ready to be tested
 
 # event-emitter-module
 
@@ -6,7 +6,7 @@ A simple Javascript event emitter
 
 ## Installation
 
-  <!-- Omitting this until work is complete -->
+  <!-- Omitting this until work is complete `npm install event-emitter-module` -->
 
 ## Usage
 
